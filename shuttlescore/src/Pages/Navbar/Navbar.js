@@ -1,4 +1,5 @@
 import React from "react"
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,8 +15,8 @@ const Navbar = () => {
             <Link to='/'><li>ShuttleScore</li></Link>
             </ul>
             <ul className="nav-links">
-                <Link to='/addmatch'><li>+ Match</li></Link>
-                <Link to='/matchlog'><li>Log</li></Link>
+                <Link to='/match'><li>+ Match</li></Link>
+                <Link to='/log'><li>Log</li></Link>
                 <Link to='/account'><li>Account</li></Link>
             </ul>
             </div>
