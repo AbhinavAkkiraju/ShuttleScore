@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
 }
+body{
+    min-height: 100vh;
+    background: linear-gradient(#D0E7D7,#C3DEF3);
+}
 li {
     list-style: none;
 }
@@ -56,12 +60,4 @@ a:link {
     cursor: pointer;
     text-transform: capitalize;
     text-decoration: none;
-}
-.hero {
-    text-align: center;
-    margin-top: 10%;
-}
-.hero h1 {
-    text-align: center;
-    font-size: 80px;
 }

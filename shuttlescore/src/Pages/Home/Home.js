@@ -1,8 +1,16 @@
+import "./Home.css"
+import badracket from './racket.png';
+console.log(badracket);
 function Home() {
     return(
-        <>
-        <h1>This is home</h1>
-        </>
+        <div className="homePage">
+            <div className="header">
+                <h1>ShuttleScore</h1>
+            </div>
+            <div className="description">
+                <h2>The best resource for badminton players to keep track of their matches, records, and more!</h2>
+            </div>
+        </div>
     );
 }
 
