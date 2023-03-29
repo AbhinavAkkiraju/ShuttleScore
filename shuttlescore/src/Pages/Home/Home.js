@@ -1,6 +1,4 @@
 import "./Home.css"
-import badracket from './racket.png';
-console.log(badracket);
 function Home() {
     return(
         <div className="homePage">

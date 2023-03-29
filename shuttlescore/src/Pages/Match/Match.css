@@ -1,0 +1,146 @@
+.matchheader{
+    margin-top: 4vh;
+    text-align: start;
+    margin-left: 6vh;
+    font-size: 4vh;
+}
+
+.matchdescription{
+    text-align: start;
+    margin-left: 6vh;
+    font-size: 2vh;
+}
+
+.opponent{
+    margin-left: 6vh;
+    margin-top: 1vh;
+
+}
+
+.opponentSearch {
+    max-width: 40vh;
+    background-color: rgb(255, 255, 255);
+    align-items:flex-end;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.borders{
+    width: 100%;
+    height: 3vh;
+    border: none;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.borders:focus{
+    outline: none;
+}
+
+.dateofmatch{
+    margin-left: 6vh;
+    margin-top: 2vh;
+}
+
+.dateBox{
+    max-width: 40vh;
+    background-color: rgb(255, 255, 255);
+    align-items:flex-end;
+    border-radius: 60px;
+    padding: 20px 30px;
+}
+
+.userScore{
+    margin-left: 6vh;
+    margin-top: 1vh;
+
+}
+
+.userScoreSearch {
+    max-width: 40vh;
+    background-color: rgb(255, 255, 255);
+    align-items:flex-end;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.userScoreBorder{
+    width: 100%;
+    height: 3vh;
+    border: none;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.userScoreBorder:focus{
+    outline: none;
+}
+
+.opponentScore{
+    margin-left: 6vh;
+    margin-top: 2vh;
+
+}
+
+.opponentScoreSearch {
+    max-width: 40vh;
+    background-color: rgb(255, 255, 255);
+    align-items:flex-end;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.opponentScoreBorder{
+    width: 100%;
+    height: 3vh;
+    border: none;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.opponentScoreBorder:focus{
+    outline: none;
+}
+
+.opponentNameTitle{
+    margin-left: 6.5vh;
+    margin-top: 5vh;
+    font-size: 2vh;
+}
+
+.userScoreTitle{
+    margin-left: 6.5vh;
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.opponentScoreTitle{
+    margin-left: 6.5vh;
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.dateTitle{
+    margin-left: 6.5vh;
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.addbutton{
+    margin-left: 6vh;
+    margin-top: 5vh;
+}
+
+.btn {
+    width: 40vh;
+    height: 5vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 60px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vh;
+}
