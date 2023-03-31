@@ -22,16 +22,16 @@
 }
 table {
   width: 80vh;
-  height: 60vh;
+  height: 10vh;
   border-collapse: collapse;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.1);
 }
 th,
 td {
-  padding: 2vh;
+  padding: 3vh;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #000000;
 }
 th {
   text-align: left;

@@ -1,14 +1,14 @@
 import "./Log.css"
-import Data from "./Data.json"
+import { array } from "../Match/Data"
 import * as React from "react";
 import { useTable } from "react-table";
 
 function Log() {
-    const data = React.useMemo(() => Data, []);
+    const data = React.useMemo(() => array, []);
     const columns = React.useMemo(() => [
         {
             Header: "Date",
-            accessor: "date",
+            accessor: "dateofmatch",
         },
         {
             Header: "Opponent",
@@ -17,10 +17,6 @@ function Log() {
         {
             Header: "Score",
             accessor: "score"
-        },
-        {
-            Header: "Result",
-            accessor: "result"
         }
     ], []
     );

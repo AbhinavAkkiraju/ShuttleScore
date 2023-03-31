@@ -57,6 +57,10 @@
 
 }
 
+.btn:hover{
+    cursor: pointer
+}
+
 .userScoreSearch {
     max-width: 40vh;
     background-color: rgb(255, 255, 255);
