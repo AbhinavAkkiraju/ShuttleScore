@@ -15,7 +15,6 @@ const Navbar = () => {
             <ul className="nav-links">
                 <Link to='/match'><li>+ Match</li></Link>
                 <Link to='/log'><li>Log</li></Link>
-                <Link to='/account'><li>Account</li></Link>
             </ul>
             </div>
         </nav>

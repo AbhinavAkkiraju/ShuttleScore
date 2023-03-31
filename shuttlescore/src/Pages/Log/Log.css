@@ -1,0 +1,57 @@
+.logheader{
+    margin-top: 4vh;
+    text-align: center;
+    margin-left: 6vh;
+    font-size: 4vh;
+}
+
+.logdescription{
+    text-align: center;
+    margin-left: 6vh;
+    font-size: 2vh;
+}
+
+.table {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  max-height: 40vh;
+  overflow-y: scroll;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+table {
+  width: 80vh;
+  height: 60vh;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 2vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #515c8b;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}

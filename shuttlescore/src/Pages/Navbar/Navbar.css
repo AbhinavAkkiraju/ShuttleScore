@@ -18,7 +18,7 @@ li {
     box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
 }
 .logo {
-    font-size: 50px;
+    font-size: 4vh;
     cursor: pointer;
 }
 .logo li {
@@ -54,9 +54,9 @@ a:link {
 }
 .nav-links li{
     color: black;
-    font-size: 30px;
-    padding: 0 10px;
-    margin: 0 20px;
+    font-size: 2.7vh;
+    padding: 0 0.5vh;
+    margin: 0 1vh;
     cursor: pointer;
     text-transform: capitalize;
     text-decoration: none;
