@@ -1,5 +1,5 @@
 import "./Log.css"
-import { array } from "../Match/Data"
+import { array } from "../Match/Data.js"
 import * as React from "react";
 import { useTable } from "react-table";
 
